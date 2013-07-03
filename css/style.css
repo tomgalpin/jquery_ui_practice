@@ -1,0 +1,113 @@
+#navbar {
+  background-color: gray;
+  border-bottom: 2px solid black;
+  height: 60px;
+  width: 100%;
+  margin-top: -22px;
+  line-height: 60px;
+  text-align: center;
+  box-shadow: 0 5px 20px black;
+}
+
+#navbar h1 {
+  color: #122447;
+}
+
+.stack {
+  height: 300px;
+  width: 60%;
+  margin: 30px auto;
+  border: 1px solid black;
+  box-shadow: 0 10px 20px gray;
+}
+
+.stack h2 {
+  text-align: center;
+  font-family: Helvetica, serif;
+}
+
+#sortable {
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  width: 80%;
+}
+
+#sortable li {
+  margin: 0 3px 3px 3px;
+  padding: 0.4em;
+  padding-left: 1.5em;
+  font-size: 1.4em;
+  height: 18px;
+  text-align: center;
+}
+
+#sortable li span {
+  position: absolute;
+  margin-left: -1.3em;
+}
+
+#feedback {
+  font-size: 1.4em;
+}
+#selectable .ui-selecting {
+  background: #FFA2E8;
+}
+
+#selectable .ui-selected {
+  background: #FFA2E8;
+  color: white;
+}
+
+#selectable {
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  width: 80%;
+}
+
+#selectable li {
+  margin: 3px;
+  padding: 0.4em;
+  font-size: 1.4em;
+  height: 18px;
+  text-align: center;
+}
+
+#stack_datepicker {
+  height: 350px;
+}
+.stack #datepicker {
+  margin-left: 225px;
+  height: 200px;
+}
+
+#stack_progressbar  {
+  height: 200px;
+}
+
+#progressbar {
+  width: 80%;
+  margin: 30px auto;
+}
+
+#container {
+  width: 400px;
+  height: 300px;
+  margin: auto;
+  overflow: hidden;
+}
+
+#resizable {
+  background-position: top left;
+  width: 200px;
+  height: 150px;
+}
+
+#stack_resizable {
+  height: 400px;
+}
+
+
+
+

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>WDI - jQuery UI Demo</title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.10.3/themes/flick/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body>
+
+  <div id="navbar">
+    <h1>jQuery UI Playground</h1>
+  </div>
+
+  <div id="stacks">
+
+    <div class="stack">
+      <div id="sortable">
+        <h2>Sortable</h2>
+        <ul id="sortable">
+          <li class="ui-state-highlight">Item 1</li>
+          <li class="ui-state-highlight">Item 2</li>
+          <li class="ui-state-highlight">Item 3</li>
+          <li class="ui-state-highlight">Item 4</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="stack">
+      <h2>Selectable</h2>
+      <ul id="selectable">
+        <li class="ui-widget-content">Item 1</li>
+        <li class="ui-widget-content">Item 2</li>
+        <li class="ui-widget-content">Item 3</li>
+        <li class="ui-widget-content">Item 4</li>
+      </ul>
+    </div>
+
+    <div id="stack_datepicker" class="stack">
+      <h2>Date Picker</h2>
+      <div id="datepicker"></div>
+    </div>
+
+    <div id="stack_progressbar" class="stack">
+      <h2>Progress Bar</h2>
+      <div id="progressbar">
+        <div class="progress-label">
+          Loading...
+        </div>
+      </div>
+    </div>
+
+    <div id="stack_resizable" class="stack">
+      <h2>Resizable</h2>
+      <div id="container" class="ui-widget-content">
+        <img src="images/caricature.jpg" id="resizable" class="ui-state-active">
+      </div>
+    </div>
+
+</div>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
